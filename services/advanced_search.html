@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Advanced Search</title>
+  </head>
+  <body>
+    <div class="top-links">
+      <a href="../index.html">&larr; Back</a>
+    </div>
+    <h1 class="header">
+      <label>Advanced Search</label>
+    </h1>
+    <form class="advanced-form" action="https://www.google.com/search" method="GET" name="f">
+      <div class="col">
+        <div class="row"><div class="advanced-form__header">Find pages with...</div></div>
+        <div class="row"><div class="advanced-form__name">all these words:</div></div>
+        <div class="row"><div class="advanced-form__name">this exact word or phrase:</div></div>
+        <div class="row"><div class="advanced-form__name">any of these words:</div></div>
+        <div class="row"><div class="advanced-form__name">none of these words:</div></div>
+        <div class="row"></div>
+      </div>
+      <div class="col">
+        <div class="row">&nbsp;</div>
+        <div class="row">
+          <input type="text" class="advanced-form__field" name="as_q" value="" />
+        </div>
+        <div class="row">
+          <input type="text" class="advanced-form__field" name="as_epq" value="" />
+        </div>
+        <div class="row">
+          <input type="text" class="advanced-form__field" name="as_oq" value="" />
+        </div>
+        <div class="row">
+          <input type="text" class="advanced-form__field" name="as_eq" value="" />
+        </div>
+        <div class="row tar">
+          <input class="advanced-form__submit" type="submit" value="Advanced Search" />
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="advanced-form__header advanced-form__header-bold">
+            To do this in the search box.
+          </div>
+        </div>
+        <div class="row">
+          <div class="advanced-form__descr">Type the important words:tri-colour rat terrier</div>
+        </div>
+        <div class="row">
+          <div class="advanced-form__descr">Put exact words in quotes:"rat terrier"</div>
+        </div>
+        <div class="row">
+          <div class="advanced-form__descr">
+            TypeORbetween all the words you want:miniature OR standard
+          </div>
+        </div>
+        <div class="row">
+          <div class="advanced-form__descr">
+            Put two full stops between the numbers and add a unit of measurement:10..35 kg,
+            £300..£500, 2010..2011
+          </div>
+        </div>
+        <div class="row"></div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: arial, sans-serif;
+  height: inherit;
+}
+.tar {
+  text-align: right;
+}
+.top-links {
+  text-align: right;
+}
+.top-links a {
+  font-size: 13px;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+.top-links a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  margin: 25px 35px;
+  font-size: 20px;
+  color: #d93025;
+}
+.header label {
+  margin-left: 10px;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: inherit;
+}
+#search-form input[name='q'] {
+  padding: 10px 15px;
+  width: 30%;
+  max-width: 500px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+#search-form input[type='submit'] {
+  margin-top: 20px;
+  background-color: #efefef;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px 15px;
+  transition: 0.5s background-color;
+}
+#search-form input[type='submit']:hover {
+  background-color: #e1e1e1;
+}
+#search-form input[type='submit']:active {
+  box-shadow: 3px 3px 10px #ccc;
+}
+.submit-btns {
+  display: flex;
+  gap: 20px;
+}
+.advanced-form {
+  display: grid;
+  grid-template-columns: 20% auto 30%;
+  grid-template-rows: minmax(30px, auto);
+  column-gap: 20px;
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+.advanced-form__header-bold {
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+}
+.advanced-form__name {
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+}
+.advanced-form__field {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+}
+.advanced-form__descr {
+  color: #555;
+  font-size: 11px;
+}
+.advanced-form__submit {
+  line-height: 100%;
+  height: 30px;
+  min-width: 120px;
+  margin: 10px 0;
+  padding: 0 12px;
+  box-shadow: none;
+  background-color: #4d90fe;
+  background-image: -moz-linear-gradient(top, #4d90fe, #4787ed);
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+  color: #fff;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+.advanced-form__submit:hover {
+  background-color: #357ae8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4d90fe), to(#357ae8));
+  border: 1px solid #2f5bb7;
+}
+.row {
+  height: 42px;
+}
+.row > div[class^='advanced-form'] {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  /* line-height: 30px; */
+}
